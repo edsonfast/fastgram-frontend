@@ -56,7 +56,7 @@ class Feed extends Component {
     
                         </header>
     
-                        <img src={`http://localhost:3333/files/${post.image}`} alt="foto"/>
+                        <img src={post.imageurl} alt={post.imagename}/>
     
                         <footer>
                             <div className="actions">
